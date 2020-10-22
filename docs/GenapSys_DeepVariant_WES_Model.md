@@ -2,7 +2,7 @@
 
 The GenapSys team has developed a Germline variant calling pipeline for the GenapSys sequencing technology based on Google’s DeepVariant model. This pipeline is available for use on GenHub<sup>TM</sup> (GenapSys Cloud-based analysis platform).
 
-![Pipeline Image](/images/pipelinev2.png)
+![Pipeline Image](/images/pipeline.png)
 ===
 
 We carried out whole exome sequencing of DNA from the extremely well characterized human cell line NA12878. NA12878 is a lymphoblastoid cell line (LCL) prepared from a normal female Caucasian participant of the international HapMap project. This DNA sample has served as a human reference standard for the Genome in a Bottle (GIAB v3.3.2) Consortium and has been well characterized using a variety of different genomic technologies. Targeted sequencing libraries made from NA12878 genomic DNA were generated via a probe-based capture method using the IDT xGEN Exome Research Panel (v1.0). 
