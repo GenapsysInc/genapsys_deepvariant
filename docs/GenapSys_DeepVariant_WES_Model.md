@@ -12,7 +12,7 @@ Sequencing reads were aligned to the hg38 reference genome using BWA MEM (v0.7.1
 Here we summarize the Germline variant calling performance of the GenapSys DeepVariant model tested on GenapSys WES dataset (100X coverage).
 
 Type | Technology | True positives | False negatives | False positives | Recall | Precision | F1-Score
----- | ---------- | -------------- | --------------- | --------------- | ------ | --------- | -------------
+:--: | :--------: | :------------: | :-------------: | :-------------: | :----: | :-------: | :-------------:
 SNP | GenapSys | 20929 | 170 | 8 | 0.992 | 1.00 | 0.996
 INDEL | GenapSys | 664 | 74 | 63 | 0.900 | 0.913 | 0.906
 
