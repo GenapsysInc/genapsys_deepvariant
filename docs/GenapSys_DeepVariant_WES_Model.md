@@ -18,16 +18,17 @@ INDEL | GenapSys | 664 | 74 | 63 | 0.900 | 0.913 | 0.906
 
 
 
+
 ## How to run:
 
-## Install Docker.
+### Install Docker.
 Please follow the instructions on the Docker’s website.
 https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
-## Pull the Docker image.
+### Pull the Docker image.
 docker pull genapsysinc/genapsys_deepvariant:0.9.0.1
 
-## Run GenapSys-DeepVariant
+### Run GenapSys-DeepVariant
 docker run \
   -v "YOUR_INPUT_DIR":"/input" \
   -v "YOUR_OUTPUT_DIR:/output" \
