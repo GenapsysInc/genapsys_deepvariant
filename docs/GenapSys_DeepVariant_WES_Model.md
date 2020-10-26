@@ -18,6 +18,27 @@ INDEL | GenapSys | 664 | 74 | 63 | 0.900 | 0.913 | 0.906
 
 
 
+How to run:
+
+# Install Docker.
+Please follow the instructions on the Docker’s website.
+https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
+# Pull the Docker image.
+docker pull genapsysinc/genapsys_deepvariant:0.9.0.1
+
+# Run GenapSys-DeepVariant
+docker run \
+  -v "YOUR_INPUT_DIR":"/input" \
+  -v "YOUR_OUTPUT_DIR:/output" \
+  genapsysinc/genapsys_deepvariant:0.9.0.1 \
+  /opt/run_genapsys_deepvariant \
+  --model_type=WES \
+  --ref=/input/YOUR_REF \
+  --regions=/input/YOUR_BED \
+  --reads=/input/YOUR_INPUT_BAM \
+  --output_vcf=/output/YOUR_OUTPUT_VCF \
+  --num_shards=$(nproc)  # number of cores to run make_examples
 
 
 
