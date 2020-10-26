@@ -18,7 +18,7 @@ INDEL | GenapSys | 664 | 74 | 63 | 0.900 | 0.913 | 0.906
 
 
 
-How to run:
+# How to run:
 
 # Install Docker.
 Please follow the instructions on the Docker’s website.
