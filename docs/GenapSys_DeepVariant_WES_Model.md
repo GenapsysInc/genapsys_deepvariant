@@ -13,7 +13,7 @@ Here we summarize the Germline variant calling performance of the GenapSys DeepV
 
 Type | Technology | True positives | False negatives | False positives | Recall | Precision | F1-Score
 :--: | :--------: | :------------: | :-------------: | :-------------: | :----: | :-------: | :-------------:
-SNP | GenapSys | 20929 | 170 | 8 | 0.992 | 1.00 | 0.996
+SNP | GenapSys | 20929 | 170 | 8 | 0.992 | 1.000 | 0.996
 INDEL | GenapSys | 664 | 74 | 63 | 0.900 | 0.913 | 0.906
 
 
